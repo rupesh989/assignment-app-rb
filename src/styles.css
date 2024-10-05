@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.canvas {
+  flex: 1;
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.draggable-element {
+  padding: 10px;
+  margin: 5px 0;
+  background: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.property-panel {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  background: #f9f9f9;
+}
